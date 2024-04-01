@@ -8,6 +8,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+h2{
+    padding: 15px;
 }
 
 .nav-items{
@@ -26,4 +32,5 @@
 .nav-items li a{
     text-decoration: none;
     font-size: 24px;
+    color: white;
 }
