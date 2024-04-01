@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -12,11 +12,11 @@
     color: white;
 }
 
-h2{
+h2 {
     padding: 15px;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,12 +25,21 @@ h2{
     list-style: none;
 }
 
-.nav-items li{
+.nav-items li {
     margin: 15px;
 }
 
-.nav-items li a{
+.nav-items li a {
     text-decoration: none;
     font-size: 24px;
     color: white;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about-info {
+    width: 960px;
+    margin: auto;
 }
